@@ -8,7 +8,7 @@ redirect_from:
 
 # About Me 👋
 
-Hi, I’m **Saba Sahban**, a passionate 22-year-old computer engineering student from Tehran, Iran. I’m currently in my final semester at **Amirkabir University of Technology (Tehran Polytechnic)** 🎓, and I’m excited about the next step in my journey—pursuing a master’s degree abroad 🌍.
+Hi, I’m **Saba Sahban**, a 22-year-old computer engineering student from Tehran, Iran. I’m currently in my final semester at **Amirkabir University of Technology (Tehran Polytechnic)** 🎓, and I’m excited about the next step in my journey—pursuing a master’s degree abroad 🌍.
 
 At present, I’m conducting research in the **AUT Cloud Lab (LPDS)** 🧑‍💻 under the supervision of **Dr. Momtazpour**. My thesis focuses on developing a federated learning framework with a team of six, exploring cutting-edge approaches to decentralized and distributed systems 🚀. My work spans several innovative projects, each centered around my passion for federated learning, cloud/edge computing, and scalable systems ☁️.
 
