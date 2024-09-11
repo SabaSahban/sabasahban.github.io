@@ -1,126 +1,152 @@
 ---
 layout: archive
-title: "Teaching Experience 🎓"
+title: "Teaching Assistantships"
 permalink: /teaching/
 author_profile: true
 ---
 
-
 <style>
-    .teaching-section {
-        background: #f9f9f9;
-        padding: 30px;
+    .teaching-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 30px;
+        padding: 40px;
+        background-color: #f8f9fa;
         border-radius: 12px;
-        margin-bottom: 40px;
-        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
-        color: #333;
     }
 
-    .course-title {
-        color: #2c3e50;
-        font-size: 1.7em;
-        font-weight: bold;
-        margin-bottom: 15px;
-    }
-
-    .course-details {
-        color: #34495e;
-        font-size: 1.1em;
-        line-height: 1.8;
-        margin-bottom: 20px;
-    }
-
-    .course-icon {
-        font-size: 2em;
-        color: #3498db;
-        margin-right: 15px;
-    }
-
-    .teaching-container {
+    .teaching-card {
+        position: relative;
         background-color: #ffffff;
-        padding: 25px;
-        border-radius: 10px;
-        margin-bottom: 25px;
-        border: 1px solid #ddd;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     }
 
-    .teaching-container:hover {
+    .teaching-card:hover {
         transform: translateY(-10px);
-        box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .card-header {
+        background: linear-gradient(135deg, #74ebd5, #acb6e5);
+        padding: 20px;
+        color: white;
+        text-align: center;
+        font-size: 1.4em;
+        font-weight: bold;
+    }
+
+    .card-body {
+        padding: 20px;
+        color: #2c3e50;
+        text-align: left;
+        font-size: 1.1em;
+    }
+
+    .card-body .ta-term {
+        font-weight: bold;
+        color: #3498db;
+        margin-bottom: 10px;
+    }
+
+    .card-body .ta-supervisor {
+        color: #7f8c8d;
+        font-size: 1em;
+        margin-bottom: 15px;
+    }
+
+    .card-body .ta-description {
+        line-height: 1.6;
+        color: #2c3e50;
+    }
+
+    /* Media Queries for responsiveness */
+    @media (max-width: 768px) {
+        .teaching-grid {
+            grid-template-columns: 1fr;
+        }
     }
 </style>
 
-<div class="teaching-section">
+<div class="teaching-grid">
 
-    <div class="teaching-container">
-        <span class="course-icon">📘</span>
-        <span class="course-title">Software Testing</span>
-        <p class="course-details">
-            <strong>Term:</strong> Fall 2024 <br>
-            <strong>Supervisor:</strong> <a href="https://scholar.google.com/citations?user=7bpNAlAAAAAJ&hl=en" target="_blank">Dr. Gohari</a> <br>
-            Designed and evaluated projects and delivered online project submissions.
-        </p>
+    <div class="teaching-card">
+        <div class="card-header">Software Testing</div>
+        <div class="card-body">
+            <p class="ta-term">Fall 2024</p>
+            <p class="ta-supervisor">Supervised by <a href="https://scholar.google.com/citations?user=7bpNAlAAAAAJ&hl=en" target="_blank">Dr. Gohari</a></p>
+            <p class="ta-description">
+                Guided students through testing methodologies, tools, and best practices for ensuring high-quality software systems. Designed and evaluated projects, managing online submissions.
+            </p>
+        </div>
     </div>
 
-    <div class="teaching-container">
-        <span class="course-icon">🔧</span>
-        <span class="course-title">Head of Microprocessor and Assembly</span>
-        <p class="course-details">
-            <strong>Terms:</strong> Spring 2024, Fall 2024 <br>
-            <strong>Supervisor:</strong> <a href="https://scholar.google.com/citations?user=PAZOYiAAAAAJ&hl=en" target="_blank">Dr. Farbeh</a> <br>
-            Coordinated team tasks, managed time schedules, and facilitated communication between the professor and the team.
-        </p>
+    <div class="teaching-card">
+        <div class="card-header">Microprocessor and Assembly (Head TA)</div>
+        <div class="card-body">
+            <p class="ta-term">Spring 2024, Fall 2024</p>
+            <p class="ta-supervisor">Supervised by <a href="https://scholar.google.com/citations?user=PAZOYiAAAAAJ&hl=en" target="_blank">Dr. Farbeh</a></p>
+            <p class="ta-description">
+                Led the TA team and coordinated tasks, time management, and communication between students and the professor.
+            </p>
+        </div>
     </div>
 
-    <div class="teaching-container">
-        <span class="course-icon">🖥</span>
-        <span class="course-title">Operating Systems</span>
-        <p class="course-details">
-            <strong>Terms:</strong> Spring 2024, Fall 2024 <br>
-            <strong>Supervisors:</strong> <a href="https://scholar.google.com/citations?user=Va7RTUsAAAAJ&hl=en" target="_blank">Dr. Javadi</a> and <a href="https://www.researchgate.net/profile/Fatemeh-Ziaeetabar" target="_blank">Dr. Ziaeetabar</a> <br>
-            Designed TA-led class projects and handled online grading for student projects.
-        </p>
+    <div class="teaching-card">
+        <div class="card-header">Operating Systems</div>
+        <div class="card-body">
+            <p class="ta-term">Spring 2024, Fall 2024</p>
+            <p class="ta-supervisor">Supervised by <a href="https://scholar.google.com/citations?user=Va7RTUsAAAAJ&hl=en" target="_blank">Dr. Javadi</a> & <a href="https://www.researchgate.net/profile/Fatemeh-Ziaeetabar" target="_blank">Dr. Ziaeetabar</a></p>
+            <p class="ta-description">
+                Assisted students in understanding core OS concepts like process scheduling, memory management, and system calls. Designed and evaluated class projects.
+            </p>
+        </div>
     </div>
 
-    <div class="teaching-container">
-        <span class="course-icon">🗄</span>
-        <span class="course-title">Head of Database Design</span>
-        <p class="course-details">
-            <strong>Term:</strong> Spring 2024 <br>
-            <strong>Supervisor:</strong> <a href="https://scholar.google.com/citations?user=z2CvkDQAAAAJ&hl=en" target="_blank">Dr. Shahriari</a> <br>
-            Coordinated the team’s work, managed scheduling, and facilitated communication between the professor and the team.
-        </p>
+    <div class="teaching-card">
+        <div class="card-header">Database Design (Head TA)</div>
+        <div class="card-body">
+            <p class="ta-term">Spring 2024</p>
+            <p class="ta-supervisor">Supervised by <a href="https://scholar.google.com/citations?user=z2CvkDQAAAAJ&hl=en" target="_blank">Dr. Shahriari</a></p>
+            <p class="ta-description">
+                Managed the TA team, scheduled activities, and facilitated communication with the professor. Reviewed and graded student database projects.
+            </p>
+        </div>
     </div>
 
-    <div class="teaching-container">
-        <span class="course-icon">☁️</span>
-        <span class="course-title">Cloud Computing</span>
-        <p class="course-details">
-            <strong>Term:</strong> Spring 2024 <br>
-            <strong>Supervisor:</strong> <a href="https://scholar.google.com/citations?user=Va7RTUsAAAAJ&hl=en" target="_blank">Dr. Javadi</a> <br>
-            Developed educational content and managed online project submissions.
-        </p>
+    <div class="teaching-card">
+        <div class="card-header">Cloud Computing</div>
+        <div class="card-body">
+            <p class="ta-term">Spring 2024</p>
+            <p class="ta-supervisor">Supervised by <a href="https://scholar.google.com/citations?user=Va7RTUsAAAAJ&hl=en" target="_blank">Dr. Javadi</a></p>
+            <p class="ta-description">
+                Led practical sessions on cloud architectures, distributed systems, and infrastructure management using modern tools. Designed projects and managed submissions.
+            </p>
+        </div>
     </div>
 
-    <div class="teaching-container">
-        <span class="course-icon">🛠</span>
-        <span class="course-title">Software Engineering</span>
-        <p class="course-details">
-            <strong>Term:</strong> Spring 2024 <br>
-            <strong>Supervisor:</strong> <a href="https://scholar.google.com/citations?user=7bpNAlAAAAAJ&hl=en" target="_blank">Dr. Gohari</a> <br>
-            Designed the project and facilitated online submissions and reviews.
-        </p>
+    <div class="teaching-card">
+        <div class="card-header">Software Engineering</div>
+        <div class="card-body">
+            <p class="ta-term">Spring 2024</p>
+            <p class="ta-supervisor">Supervised by <a href="https://scholar.google.com/citations?user=7bpNAlAAAAAJ&hl=en" target="_blank">Dr. Gohari</a></p>
+            <p class="ta-description">
+                Taught design principles and facilitated online submissions for projects. Guided students in software development methodologies and lifecycle management.
+            </p>
+        </div>
     </div>
 
-    <div class="teaching-container">
-        <span class="course-icon">🔢</span>
-        <span class="course-title">Algorithms and Data Structures</span>
-        <p class="course-details">
-            <strong>Terms:</strong> Spring 2022, Fall 2022, Fall 2023 <br>
-            <strong>Supervisor:</strong> <a href="https://sajad.shirali.ir/" target="_blank">Dr. Shirali Shahreza</a> <br>
-            Designed and graded assignments, developed educational materials, and provided content for exercises.
-        </p>
+    <div class="teaching-card">
+        <div class="card-header">Algorithms and Data Structures</div>
+        <div class="card-body">
+            <p class="ta-term">Spring 2022, Fall 2022, Fall 2023</p>
+            <p class="ta-supervisor">Supervised by <a href="https://sajad.shirali.ir/" target="_blank">Dr. Shirali Shahreza</a></p>
+            <p class="ta-description">
+                Developed exercises, graded assignments, and guided students in problem-solving techniques using algorithms and data structures.
+            </p>
+        </div>
     </div>
 
 </div>
