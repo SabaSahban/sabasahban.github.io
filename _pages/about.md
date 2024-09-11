@@ -15,6 +15,13 @@ At present, I’m conducting research in the **AUT Cloud Lab (LPDS)** 🧑‍�
 
 Outside of academics, I’m a huge music lover 🎶. I used to play bass and electric guitar in a band called **Stendhal Music Band**, and I’m a big fan of **Opeth** and **Tool**. I enjoy listening to a wide range of genres and exploring new sounds. 🎸
 
+#### Here's our band playing:
+
+<iframe src="https://www.instagram.com/tv/CZ3yOlalWcn/embed" width="400" height="480" frameborder="0" allowfullscreen></iframe>
+
 In my free time, I love playing **tennis** and **badminton** 🏸, and I also enjoy spending time in nature 🌿, where I can relax and recharge.
 
-Let’s connect and explore how we can shape the future of technology together! 🤝
+Feel free to reach out if you have any questions or collaboration opportunities! 🤝
+
+
+
