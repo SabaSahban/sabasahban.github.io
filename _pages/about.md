@@ -1,3 +1,12 @@
+---
+permalink: /
+title: "Saba Sahban's Personal Website"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 # About Me 👋
 
 Hi, I’m **Saba Sahban**, a passionate 22-year-old computer engineering student from Tehran, Iran. I’m currently in my final semester at **Amirkabir University of Technology (Tehran Polytechnic)** 🎓, and I’m excited about the next step in my journey—pursuing a master’s degree abroad 🌍.
