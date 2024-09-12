@@ -3,6 +3,7 @@ layout: archive
 permalink: /volunteer/
 author_profile: true
 ---
+
 <style>
     .icpc-images {
         display: grid;
@@ -13,7 +14,8 @@ author_profile: true
 
     .icpc-images img {
         width: 100%;
-        height: auto;
+        height: 200px; /* Fixed height to make all images the same size */
+        object-fit: cover; /* Ensures images fill the container while maintaining aspect ratio */
         border-radius: 8px;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
         transition: transform 0.3s ease-in-out;
@@ -22,15 +24,27 @@ author_profile: true
     .icpc-images img:hover {
         transform: scale(1.05); /* Slight zoom on hover */
     }
+
+    /* Link styling for Students' Scientific Chapter */
+    .ssc-link {
+        color: #1c6dd0; /* Default color for link */
+        text-decoration: none; /* Remove underline initially */
+        font-weight: bold;
+    }
+
+    .ssc-link:hover {
+        text-decoration: underline; /* Add underline on hover */
+        color: #3498db; /* Change color on hover */
+    }
 </style>
 
 <div class="volunteer-section">
-    <h2>Volunteer Experience 🤝</h2>
+    <h1>Volunteer Experience 🤝</h1>
 
     <!-- First volunteer experience -->
     <div class="volunteer-container">
         <h3 class="volunteer-title">Official Member and Financing Specialist</h3>
-        <p><strong>Students' Scientific Chapter</strong>, Amirkabir University of Technology <span style="float:right;">Apr 2023 - June 2024</span></p>
+        <p><strong><a href="https://ceit-ssc.ir/" target="_blank" class="ssc-link">Students' Scientific Chapter</a></strong>, Amirkabir University of Technology <span style="float:right;">Apr 2023 - June 2024</span></p>
         <ul>
             <li>Elected as an official member and finance specialist, responsible for budgeting events and liaising with sponsors.</li>
         </ul>

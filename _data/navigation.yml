@@ -8,11 +8,11 @@ main:
   - title: "CV"
     url: /files/CV_Saba_Sahban.pdf
 
-  - title: "Education"
-    url: /education/
-
   - title: "Research"
     url: /research/
+
+  - title: "Education"
+    url: /education/
 
   - title: "Work Experience"
     url: /work/
@@ -22,9 +22,12 @@ main:
     
   - title: "Projects"
     url: /projects/
-        
-  - title: "References"
-    url: /references/
+
+  - title: "Skills"
+    url: /skills/
 
   - title: "Volunteer Experience"
     url: /volunteer/
+
+  - title: "References"
+    url: /references/
