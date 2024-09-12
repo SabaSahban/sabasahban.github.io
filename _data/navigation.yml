@@ -14,7 +14,7 @@ main:
   - title: "Education"
     url: /education/
 
-  - title: "Work Experience"
+  - title: "Work"
     url: /work/
 
   - title: "TA"
@@ -26,7 +26,7 @@ main:
   - title: "Skills"
     url: /skills/
 
-  - title: "Volunteer Experience"
+  - title: "Volunteering"
     url: /volunteer/
 
   - title: "References"
