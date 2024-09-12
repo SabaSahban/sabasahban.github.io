@@ -9,12 +9,22 @@ author_profile: true
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Education</title>
     <style>
-        table {
-            width: 100%; /* Make sure the table uses full width */
-            border-collapse: collapse; /* Remove gaps between table cells */
+        .coursework {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px; /* Adjust spacing between columns */
         }
-        td {
-            padding: 10px 40px; /* Add more space between columns */
+        .coursework-column {
+            flex: 1;
+            min-width: 200px; /* Ensures each column has enough width */
+        }
+        ul {
+            list-style-type: none; /* Remove default bullets */
+        }
+        ul li::before {
+            content: '•'; /* Custom bullet */
+            margin-right: 10px;
+            color: #333;
         }
     </style>
 </head>
@@ -30,27 +40,29 @@ author_profile: true
     </ul>
 
     <h3>Related Coursework</h3>
-    <table>
-        <tr>
-            <td>• Cloud Computing 20/20</td>
-            <td>• Software Engineering 20/20</td>
-        </tr>
-        <tr>
-            <td>• Operating Systems 17.88/20</td>
-            <td>• Database Design 17.91/20</td>
-        </tr>
-        <tr>
-            <td>• Internet Engineering 20/20</td>
-            <td>• Data Structures and Algorithms 20/20</td>
-        </tr>
-        <tr>
-            <td>• Computer Networks 16.5/20</td>
-            <td>• Research and Technical Presentation 20/20</td>
-        </tr>
-    </table>
+    <div class="coursework">
+        <div class="coursework-column">
+            <ul>
+                <li>Cloud Computing 20/20</li>
+                <li>Operating Systems 17.88/20</li>
+                <li>Internet Engineering 20/20</li>
+                <li>Computer Networks 16.5/20</li>
+                              <li>Software Engineering 20/20</li>
+                <li>Database Design 17.91/20</li>
+                <li>Data Structures and Algorithms 20/20</li>
+                <li>Research and Technical Presentation 20/20</li>
+            </ul>
+        </div>
+        <div class="coursework-column">
+            <ul>
+
+            </ul>
+        </div>
+    </div>
 
 </body>
 </html>
+
 
 
 {% include base_path %}
