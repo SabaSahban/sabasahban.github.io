@@ -3,160 +3,104 @@ layout: archive
 permalink: /work/
 author_profile: true
 ---
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Work Experience</title>
-    <style>
-        body {
-            font-family: 'Helvetica', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
+put rectangles down and up
+<!-- Work Experience Section -->
+<section class="work-experience">
+  <h2>Work Experience 💼</h2>
 
-        .experience-section {
-            max-width: 1000px;
-            margin: 50px auto;
-            padding: 20px;
-        }
-
-        .experience-panel {
-            position: relative;
-            margin: 20px 0;
-            background-color: rgba(34, 34, 34, 0.9); /* Dark transparent gray */
-            overflow: hidden;
-            border-radius: 15px;
-            padding: 40px;
-            height: auto;
-            display: flex;
-            align-items: flex-start; /* Align content to the top */
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            border-left: 6px solid #007bff; /* Colored accent border */
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-        }
-
-        .experience-panel:hover {
-            transform: translateY(-5px); /* Smooth hover effect */
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
-        }
-
-        .panel-content {
-            width: 100%;
-            color: #fff;
-        }
-
-        .job-title {
-            font-size: 2rem;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-
-        .company-name {
-            font-size: 1.6rem;
-            color: #ccc;
-            margin-bottom: 3px;
-        }
-
-        .company-name a {
-            color: #ccc;
-            text-decoration: underline; /* Underline the link */
-            transition: color 0.3s ease;
-        }
-
-        .company-name a:hover {
-            color: #fff; /* Change color on hover */
-        }
-
-        .job-duration {
-            font-size: 1rem;
-            color: #bbb;
-            margin-bottom: 20px;
-        }
-
-        .job-details {
-            color: #eee;
-            line-height: 1.5;
-        }
-
-        .job-details ul {
-            padding-left: 20px; /* Add space for bullets */
-        }
-
-        /* Custom Bullet Style */
-        .job-details ul li {
-            margin-bottom: 12px; /* Space between each bullet */
-            list-style-type: none; /* Remove default bullet */
-            position: relative;
-        }
-
-        /* Custom Icon Bullet */
-        .job-details ul li::before {
-            content: '•'; /* Custom bullet */
-            position: absolute;
-            left: -25px;
-            color: #007bff; /* Accent color for bullet */
-            font-size: 1.5rem;
-            transition: transform 0.3s ease; /* Smooth hover effect */
-        }
-
-        /* Hover Effect on Bullet */
-        .job-details ul li:hover::before {
-            transform: scale(1.3); /* Grow bullet on hover */
-        }
-
-        .experience-panel:last-child {
-            margin-bottom: 0;
-        }
-
-    </style>
-</head>
-<body>
-
-    <div class="experience-section">
-        <h1>Work Experience</h1>
-        <!-- Snapp Work Experience -->
-        <div class="experience-panel">
-            <div class="panel-content">
-                <div class="job-title">Software Engineer</div>
-                <div class="company-name">
-                    <a href="https://snapp.ir" target="_blank">Snapp, Tehran</a>
-                </div>
-                <div class="job-duration">Feb 2022 – Present</div>
-                <div class="job-details">
-                    <ul>
-                        <li>Snapp is Iran's largest ride-hailing platform, offering a wide range of on-demand services, including transportation, food delivery, and grocery shopping.</li>
-                        <li>Part of Snapp’s Shared Services team, working on several critical services supporting core functionalities.</li>
-                        <li>Implemented distributed tracing and log aggregation using OpenTelemetry, Jaeger, automated deployment with GitLab CI/CD, Helm, and ArgoCD on OpenShift.</li>
-                        <li>Monitored services with Prometheus and Grafana to ensure high-load stability.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <!-- Ramzinex Work Experience -->
-        <div class="experience-panel">
-            <div class="panel-content">
-                <div class="job-title">Backend Developer Intern</div>
-                <div class="company-name">
-                    <a href="https://ramzinex.com" target="_blank">Ramzinex, Tehran</a>
-                </div>
-                <div class="job-duration">Jul 2021 – Sep 2021</div>
-                <div class="job-details">
-                    <ul>
-                        <li>Ramzinex is one of the top cryptocurrency exchanges in Iran, providing a secure platform for digital asset trading.</li>
-                        <li>Developed a cryptocurrency portfolio tracker and trading platform using Laravel and Bootstrap, enabling users to monitor asset values, track trades, and view portfolio performance in real-time.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
+  <div class="work-container">
+    <!-- Snapp Work Experience Entry -->
+    <div class="work-card">
+      <h3>Software Engineer</h3>
+      <p>
+        <strong><a href="https://snapp.ir" target="_blank" style="text-decoration: underline; color: #3498db;">Snapp</a></strong>, Tehran
+        <span style="float: right;">Feb 2022 – Present</span>
+      </p>
+      <ul>
+        <li>Worked on Snapp’s Shared Services team, supporting critical services.</li>
+        <li>Implemented distributed tracing and log aggregation using OpenTelemetry and Jaeger.</li>
+        <li>Automated Go microservices deployment using GitLab CI/CD, Helm, and ArgoCD on OpenShift.</li>
+        <li>Monitored services with Prometheus and Grafana to ensure stability under high-load conditions.</li>
+      </ul>
     </div>
 
-</body>
-</html>
+    <!-- Ramzinex Work Experience Entry -->
+    <div class="work-card">
+      <h3>Backend Developer Intern</h3>
+      <p>
+        <strong><a href="https://ramzinex.com" target="_blank" style="text-decoration: underline; color: #3498db;">Ramzinex</a></strong>, Tehran
+        <span style="float: right;">Jul 2021 – Sep 2021</span>
+      </p>
+      <ul>
+        <li>Developed a cryptocurrency portfolio tracker and trading platform using Laravel and Bootstrap.</li>
+        <li>Enabled real-time monitoring of asset values and trades.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- CSS to match site style -->
+<style>
+  .work-experience {
+    padding: 50px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+
+  .work-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .work-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .work-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2c3e50;
+  }
+
+  h3 {
+    font-size: 1.6em;
+    color: #3498db;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    padding-left: 20px;
+    list-style: disc;
+  }
+
+  ul li {
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 1.1em;
+    color: #7f8c8d;
+  }
+
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .work-container {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
 
 {% include base_path %}
 
