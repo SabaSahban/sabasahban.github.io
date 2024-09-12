@@ -1,0 +1,33 @@
+---
+layout: archive
+permalink: /volunteer/
+author_profile: true
+---
+
+<div class="volunteer-section">
+    <h2>Volunteer Experience 🤝</h2>
+
+    <div class="volunteer-container">
+        <h3 class="volunteer-title">Official Member and Financing Specialist</h3>
+        <p><strong>Students' Scientific Chapter</strong>, Amirkabir University of Technology <span style="float:right;">Apr 2023 - June 2024</span></p>
+        <ul>
+            <li>Elected as an official member and finance specialist, responsible for budgeting events and liaising with sponsors.</li>
+        </ul>
+    </div>
+
+    <div class="volunteer-container">
+        <h3 class="volunteer-title">Head of ICPC 2023</h3>
+        <p><strong>Amirkabir University of Technology</strong> <span style="float:right;">Oct 2023</span></p>
+        <ul>
+            <li>Organized the ICPC competition, a globally renowned collegiate programming contest.</li>
+            <li>Managed event logistics, including scheduling, team coordination, and collaborating with sponsors.</li>
+        </ul>
+    </div>
+
+</div>
+
+{% include base_path %}
+
+{% for post in site.volunteer reversed %}
+  {% include archive-single.html %}
+{% endfor %}
