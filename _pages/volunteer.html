@@ -3,10 +3,31 @@ layout: archive
 permalink: /volunteer/
 author_profile: true
 ---
+<style>
+    .icpc-images {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Responsive grid */
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .icpc-images img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .icpc-images img:hover {
+        transform: scale(1.05); /* Slight zoom on hover */
+    }
+</style>
 
 <div class="volunteer-section">
     <h2>Volunteer Experience 🤝</h2>
 
+    <!-- First volunteer experience -->
     <div class="volunteer-container">
         <h3 class="volunteer-title">Official Member and Financing Specialist</h3>
         <p><strong>Students' Scientific Chapter</strong>, Amirkabir University of Technology <span style="float:right;">Apr 2023 - June 2024</span></p>
@@ -15,6 +36,7 @@ author_profile: true
         </ul>
     </div>
 
+    <!-- Head of ICPC 2023 -->
     <div class="volunteer-container">
         <h3 class="volunteer-title">Head of ICPC 2023</h3>
         <p><strong>Amirkabir University of Technology</strong> <span style="float:right;">Oct 2023</span></p>
@@ -22,9 +44,17 @@ author_profile: true
             <li>Organized the ICPC competition, a globally renowned collegiate programming contest.</li>
             <li>Managed event logistics, including scheduling, team coordination, and collaborating with sponsors.</li>
         </ul>
-    </div>
 
+        <!-- ICPC Images -->
+        <div class="icpc-images">
+            <img src="/images/site-logo" alt="ICPC Image 1">
+            <img src="/images/site-logo" alt="ICPC Image 2">
+            <img src="/images/site-logo" alt="ICPC Image 3">
+            <img src="/images/site-logo" alt="ICPC Image 4">
+        </div>
+    </div>
 </div>
+
 
 {% include base_path %}
 
