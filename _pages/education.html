@@ -1,0 +1,60 @@
+---
+layout: archive
+permalink: /education/
+author_profile: true
+---
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <style>
+        table {
+            width: 100%; /* Make sure the table uses full width */
+            border-collapse: collapse; /* Remove gaps between table cells */
+        }
+        td {
+            padding: 10px 40px; /* Add more space between columns */
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Education 🎓</h2>
+    <p><strong>Amirkabir University of Technology (Tehran Polytechnic)</strong> – Tehran, Iran <span style="float:right;">2020 – 2025</span></p>
+    <p><em>B.Sc, Computer Engineering</em></p>
+    <ul>
+        <li><strong>GPA:</strong> 17.41/20 (3.73/4.0)</li>
+        <li><strong>Last Two Years GPA:</strong> 18.14/20 (3.87/4.0)</li>
+        <li><strong>Thesis Title:</strong> Implementing a semi-decentralized framework for running federated learning on edge networks.</li>
+    </ul>
+
+    <h3>Related Coursework</h3>
+    <table>
+        <tr>
+            <td>• Cloud Computing 20/20</td>
+            <td>• Software Engineering 20/20</td>
+        </tr>
+        <tr>
+            <td>• Operating Systems 17.88/20</td>
+            <td>• Database Design 17.91/20</td>
+        </tr>
+        <tr>
+            <td>• Internet Engineering 20/20</td>
+            <td>• Data Structures and Algorithms 20/20</td>
+        </tr>
+        <tr>
+            <td>• Computer Networks 16.5/20</td>
+            <td>• Research and Technical Presentation 20/20</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+
+{% include base_path %}
+
+{% for post in site.education reversed %}
+  {% include archive-single.html %}
+{% endfor %}
