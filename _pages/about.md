@@ -5,8 +5,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hello, I’m **Saba Sahban**, a 22-year-old computer engineering student from Tehran, Iran. I’m currently in my final semester at **<a href="https://aut.ac.ir/" target="_blank">Amirkabir University of Technology (Tehran Polytechnic)</a>**, and I'm planning to pursue a master’s degree abroad.
-
-At present, I’m conducting research in the **AUT Cloud Lab (LPDS)** under the supervision of **Dr. Momtazpour**. My thesis title is: Implementing a semi-decentralized framework for running federated learning on edge networks.
+Hello, I’m Saba Sahban, a 23-year-old computer engineering graduate from Tehran, Iran. I recently completed my bachelor's degree at <a href="https://aut.ac.ir/" target="_blank"><strong>Amirkabir University of Technology (Tehran Polytechnic)</strong></a>, and I am planning to pursue a graduate degree.
 
 Feel free to reach out if you have any questions or collaboration opportunities! 🤝
